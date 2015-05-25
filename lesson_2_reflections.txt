@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 It is been created a folder named .git. We need to do it because it's a system
 initialization to begin creating a repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+I think it's a transition area who is not visible in the OS. It acts like an interface
