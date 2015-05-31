@@ -6,3 +6,28 @@ initialization to begin creating a repository
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 I think it's a transition area who is not visible in the OS. It acts like an interface
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Before doing a commit I can verify if there are changes to be added to a repository by typing
+the git diff --staged
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches could help in keeping history organized when I want to make a change that is not
+officially an upgrade but another version to try a different feature
+Master branch could be for the official working version and an experimental branch could be
+for a new developpement
+
+ How do the diagrams help you visualize the branch structure?
+
+ Having the commits, parents and ids in a diagram, I can easily visualize the whole structure
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ The result is one label but two branches, so the diagram representation is not just one branch
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ Doing automatic merging doesn't allow me to manage conflicts, but doing it manually let's
+ me to analyse and do it right
